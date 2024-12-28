@@ -1,13 +1,16 @@
+import { useState } from 'react';
 import Navbar1 from './sections/navbar/Navbar1.jsx';
 import SIntroduction from './sections/sIntroduction/SIntroduction.jsx';
 
 function App() {
+  const [cssFile, setCssFile] = useState('caminho/do/sSimple.css'); // Valor inicial
+
   return (
     <>
-      <Navbar1 theme='sTheme' />
+      <Navbar1 cssFile={cssFile} />
       <SIntroduction />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

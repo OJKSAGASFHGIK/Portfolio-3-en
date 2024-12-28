@@ -1,0 +1,34 @@
+:root {
+    --sText: black;
+    --sTextT: gray;
+    --sBackground: transparent;
+
+    --bText: white;
+    --bTextT: gray;
+    --bBackground: url(./../img/a1rainbow-vortex.svg);
+}
+
+/* navbar */
+.sTheme {
+    background: var(--sBackground);}
+.sTheme .navbar-brand { color: var(--sText);
+    transition: all ease-in-out 243ms; }
+.sTheme .navbar-brand:hover { color: var(--sTextT); }
+.sTheme .nav-link { 
+    color: var(--sText);
+    transition: 243ms all ease-in-out; }
+.sTheme .nav-link:hover { color: var(--sTextT); }
+/**/
+.bTheme {
+    background-image: var(--bBackground);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;}
+.bTheme .navbar-brand { color: var(--bText);
+    transition: all ease-in-out 243ms; }
+.bTheme .navbar-brand:hover { color: var(--bTextT); }
+.bTheme .nav-link { 
+    color: var(--bText);
+    transition: 243ms all ease-in-out; }
+.bTheme .nav-link:hover { color: var(--bTextT); }
+

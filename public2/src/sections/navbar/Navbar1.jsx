@@ -1,7 +1,9 @@
-function Navbar1(){
+import './../../assets/css/css.css';
+
+function Navbar1({theme = "sTheme"}){
     return(
         <>
-        <nav className="navbar navbar-dark bg-dark navbar-expand">
+        <nav className={`navbar navbar-expand fixed-top ${theme}`}>
             <div className="container">
             <a href="#idHome" className="navbar-brand">CONTATO</a>
             <div>
@@ -12,6 +14,9 @@ function Navbar1(){
             </ul>
             </div>
             </div>
+        </nav>
+        <nav className="navbar">
+            <div className="navbar-brand" style={{color:'transparent'}}>Text transparent</div>
         </nav>
         </>
     );
