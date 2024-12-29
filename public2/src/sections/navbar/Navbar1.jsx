@@ -19,7 +19,7 @@ function Navbar1({theme = "sTheme"}){
             <a href="#" className="navbar-brand">CONTATO</a>
             <div>
             <ul className="navbar-nav">
-                <li className="nav-item"><a href="" className="nav-link">Objetivo</a></li>
+                <li className="nav-item"><a href="#idObjective" className="nav-link">Objetivo</a></li>
                 <li className="nav-item"><a href="" className="nav-link">Proficiências</a></li>
                 <li className="nav-item"><a href="" className="nav-link">Projetos</a></li>
             </ul>
