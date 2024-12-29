@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <Navbar1 theme='sTheme' />
-      <SIntroduction />
+      <SIntroduction theme='bTheme' />
     </>
   )
 }

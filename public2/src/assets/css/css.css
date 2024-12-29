@@ -1,15 +1,24 @@
 :root {
-    --sText: black;
+    --sText: #440b5f;
     --sTextT: gray;
-    --sBackground: transparent;
+    --sBackground: rgb(255, 255, 255, 0.9);
 
     --bText: white;
     --bTextT: gray;
     --bBackground: url(./../img/a1rainbow-vortex.svg);
+    --bBorder: #440b5f;
 }
+
+/**/
+h1 { font-size: 2rem; }
+h2 { font-size: 2.5rem; }
+p { font-size: 1.25rem; }
+div { font-size: 1.25rem; }
+section.sTheme, section.bTheme { padding-top: 27px; padding-bottom: 27px; }
 
 /* navbar */
 .sTheme {
+    color: var(--sText);
     background: var(--sBackground);}
 .sTheme .navbar-brand { color: var(--sText);
     transition: all ease-in-out 243ms; }
@@ -20,6 +29,7 @@
 .sTheme .nav-link:hover { color: var(--sTextT); }
 /**/
 .bTheme {
+    color:var(--bText);
     background-image: var(--bBackground);
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,3 +42,8 @@
     transition: 243ms all ease-in-out; }
 .bTheme .nav-link:hover { color: var(--bTextT); }
 
+/* Introduction */
+section.Introduction img {
+    border: 7px solid var(--bBorder); border-radius: 10%;
+    max-width: 21vw;
+    }
