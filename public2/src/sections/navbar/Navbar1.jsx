@@ -20,8 +20,8 @@ function Navbar1({theme = "sTheme"}){
             <div>
             <ul className="navbar-nav">
                 <li className="nav-item"><a href="#idObjective" className="nav-link">Objetivo</a></li>
-                <li className="nav-item"><a href="" className="nav-link">Proficiências</a></li>
-                <li className="nav-item"><a href="" className="nav-link">Projetos</a></li>
+                <li className="nav-item"><a href="#idSkills" className="nav-link">Proficiências</a></li>
+                <li className="nav-item"><a href="#idProjects" className="nav-link">Projetos</a></li>
             </ul>
             </div>
             </div>

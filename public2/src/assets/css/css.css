@@ -3,11 +3,19 @@
     --sTextT: gray;
     --sBackground: rgb(255, 255, 255, 0.9);
     --sBorder: gray;
+    --sBackgroundTable: #ff5076;
+    --sBackgroundTable2: #ffdae1;
+    --sLinkColor: red; /* just for sections */
+    --sLinkColorT: darkred; /* just for sections */
 
     --bText: white;
     --bTextT: gray;
     --bBackground: url(./../img/a1rainbow-vortex.svg);
     --bBorder: #440b5f;
+    --bBackgroundTable: #ff5076;
+    --bBackgroundTable2: #440b5f;
+    --bLinkColor: cyan; /* just for sections */
+    --bLinkColorT: yellow; /* just for sections */
 
     --paddingBase: 27px;
     --paddingTop: 81px;
@@ -54,8 +62,80 @@ section.Introduction img {
     border: 7px solid var(--bBorder); border-radius: 10%;
     max-width: 21vw;
     }
+/**/
+section.Introduction.bTheme a { 
+    color: var(--bLinkColor);
+    transition: all ease-in-out 243ms; }
+section.Introduction.bTheme a:hover { color: var(--bLinkColorT) }
+section.Introduction.bTheme span.borderUwU { border-bottom: 2.5px solid var(--sBorder); }
+/**/
+section.Introduction.sTheme a { 
+    color: var(--sLinkColor);
+    transition: all ease-in-out 243ms; }
+section.Introduction.sTheme a:hover { color: var(--sLinkColorT) }
+section.Introduction.sTheme span.borderUwU { border-bottom: 2.5px solid var(--bBorder); }
 
 /* Objective */
 section.Objective {
     padding: var(--paddingTop) var(--paddingSide) var(--paddingBase) var(--paddingSide);
 }
+
+/* Table */
+section.Skills { padding-top: var(--paddingTop); }
+.bTheme table { 
+    width: 100%;
+    border: solid 1px var(--sBorder);
+    margin-top: 9px; }
+.bTheme table th { 
+    background: var(--bBorder);
+    padding: 9px;
+    
+    border-top: solid 3px var(--sBorder);
+    border-bottom: solid 3px var(--sBorder); }
+.bTheme table td { padding: 9px; }
+.bTheme table tr {
+    border-bottom: solid 1px var(--sBorder)}
+/**/
+.sTheme table { 
+    width: 100%;
+    border: solid 1px var(--bBorder);
+    margin-top: 9px; }
+.sTheme table th { 
+    background: var(--sBackgroundTable);
+    padding: 9px;
+    
+    border-top: solid 3px var(--bBorder);
+    border-bottom: solid 3px var(--bBorder); }
+.sTheme table td { 
+    background: var(--sBackgroundTable2);
+    padding: 9px; }
+.sTheme table tr {
+    border-bottom: solid 1px var(--bBorder)}
+
+/* Projects */
+section.sProjects { padding-top: var(--paddingTop); }
+/**/
+section.sProjects.sTheme a { color: var(--sLinkColor); transition: 243ms all ease-in-out; }
+section.sProjects.sTheme a:hover { color: var(--sLinkColorT); transition: 243ms all ease-in-out; }
+
+section.sProjects.sTheme article { background: var(--sBackgroundTable2);
+    border: 1px solid var(--bBorder); margin-bottom: 21px; padding: 9px; }
+/**/
+section.sProjects.bTheme a { color: var(--bLinkColor); transition: 243ms all ease-in-out; }
+section.sProjects.bTheme a:hover { color: var(--bLinkColorT); transition: 243ms all ease-in-out; }
+
+section.sProjects.bTheme article { background: var(--bBackgroundTable2);
+    border: 1px solid var(--sBorder); margin-bottom: 21px; padding: 9px; }
+
+/* Footer */
+footer.bTheme { 
+    background: var(--bBackgroundTable2);
+    border: 7px inset var(--bBackgroundTable);
+    height: 81px; }
+footer.bTheme .UwU { color: var(--bBackgroundTable); font-size: 2rem; }
+/**/
+footer.sTheme { 
+    background: var(--sBackgroundTable2);
+    border: 7px inset var(--sBackgroundTable);
+    height: 81px; }
+footer.sTheme .UwU { color: var(--sBackgroundTable); font-size: 2rem; }

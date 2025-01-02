@@ -1,17 +1,16 @@
 import './../../assets/css/css.css';
 
-function Skills({theme="sTheme", myId=""}){
+function Skills({theme="sTheme", myId="idSkills"}){
     return(
         <>
-            <section id={myId} className={`container-fluid ${theme}`}>
+            <section id={myId} className={`container-fluid ${theme} Skills`}>
                 <h3>Proficiências:</h3>
-                <div>
-                    <div>
-                        <table className='table'>
-                            <caption>✔</caption>
+                <div className='row'>
+                    <div className='col-12 col-md-6'>
+                        <table className=''>
                             <thead>
                                 <tr>
-                                    <th>Competências</th>
+                                    <th>✔ Competências</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -36,12 +35,11 @@ function Skills({theme="sTheme", myId=""}){
                             </tfoot>*/}
                         </table>
                     </div>
-                    <div>
-                        <table>
-                            <caption>✢</caption>
+                    <div className='col-12 col-md-6'>
+                        <table className=''>
                             <thead>
                                 <tr>
-                                    <th>Extra:</th>
+                                    <th>✢ Extra:</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -66,11 +64,10 @@ function Skills({theme="sTheme", myId=""}){
                                 </tr>
                             </tfoot>*/}
                         </table>
-                        <table>
-                            <caption>●</caption>
+                        <table className=''>
                             <thead>
                                 <tr>
-                                    <th>Idiomas:</th>
+                                    <th>● Idiomas:</th>
                                 </tr>
                             </thead>
                             <tbody>

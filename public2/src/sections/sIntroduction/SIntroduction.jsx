@@ -6,10 +6,10 @@ function SIntroduction({theme = "sTheme"}){
                     <div className="col-6">
                         <h2>Marcus Guilherme Souza Campos</h2>
                         <div className="d-none d-sm-block">
-                            <p>Desenvolvedor Front-End<br/>
+                            <p><span className="borderUwU">Desenvolvedor Front-End</span><br/>
                             <span>Novembro 2022 - Presente</span></p>
                                 • Redes e contato:<br/>
-                                Git - Linkedin - Indeed<br/>
+                                <a href="https://github.com/OJKSAGASFHGIK" target="_blank">Git</a> - <a href="https://www.linkedin.com/in/marcus-guilherme-sc3/" target="_blank">Linkedin</a><br/>
                                 mgsouzacampos@hotmail.com<br/>
                                 +55 (21) 98063-6091<br/>
 
@@ -24,7 +24,7 @@ function SIntroduction({theme = "sTheme"}){
                 </div>
                 <div className="d-block d-sm-none">
                     <div>
-                        <p>Desenvolvedor Front-End<br/>
+                        <p><span className="borderUwU">Desenvolvedor Front-End</span><br/>
                         <span>Novembro 2022 - Presente</span></p>
                             • Redes e contato:<br/>
                             Git - Linkedin - Indeed<br/>
