@@ -14,7 +14,7 @@ function SProjects({theme="sTheme", myId="idProjects"}){
                             <article>
                                 <h4>All Notes</h4>
                                 <p>Notas gerais sobre HTML, CSS e JavaScript<br/></p>
-                                <a href="1.ProjectNotes\1.HTMLandCSSnotes\a1ResumeAll.html" target="_blank">Clique aqui para ver
+                                <a href="./projects/1.ProjectNotes/1.HTMLandCSSnotes/a1ResumeAll.html" target="_blank">Clique aqui para ver
                                     mais...</a>
                             </article>
                         </div>
