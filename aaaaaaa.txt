@@ -30,5 +30,8 @@
 
 
 --netlify website:
-
-.
+Base directory: ???
+Package directory: ???
+Build command: ???
+Publish directory: ???
+Functions directory: ???
