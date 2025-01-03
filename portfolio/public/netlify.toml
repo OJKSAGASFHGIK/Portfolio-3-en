@@ -3,6 +3,6 @@
   command = "npm run build"
 
 [[redirects]]
-  from = "/project-notes/*"
+  from = "/projects/1.ProjectNotes/*"
   to = "/projects/1.ProjectNotes/:splat"
   status = 200
