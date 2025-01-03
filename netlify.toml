@@ -4,6 +4,6 @@
 
 [[redirects]]
   from = "/projects/1.ProjectNotes/*"
-  to = "/projects/1.ProjectNotes/:splat"
+  to = "/portfolio/public/index.html"
   status = 200
   force = true
