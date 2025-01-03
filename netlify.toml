@@ -3,13 +3,8 @@
   command = "echo 'no build script'" # It means: Build command
 
 [[redirects]]
-  from = "./../../../../projects/1.ProjectNotes/*" # from = link (from é o link)
-  to = "./../../../../projects/1.ProjectNotes/:splat" # to = path (to é o path)
+  from = "/projects/1.ProjectNotes/*"
+  to = "/projects/1.ProjectNotes/:splat"
   status = 200
   force = true
-
-[[redirects]]
-  from = "/projects/2.Projects/*"
-  to = "/../projects/2.Projects/:splat"
-  status = 200
-  force = true
+  

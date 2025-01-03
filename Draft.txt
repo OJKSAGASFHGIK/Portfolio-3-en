@@ -1,0 +1,6 @@
+# Diretórios base:
+# Caminho do publish (diretório principal):
+./portfolio/public
+
+# Caminho do diretório que preciso de splat no netlify:
+./projects/1.ProjectNotes
