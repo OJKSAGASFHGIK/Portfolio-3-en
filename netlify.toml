@@ -1,9 +1,9 @@
 [build]
   publish = "portfolio/public" #It means: Publish directory (public/index repository)
-  command = "npm run build" # It means: Build command
+  command = "echo 'no build script'" # It means: Build command
 
 [[redirects]]
-  from = "/projects/*"
-  to = "/projects/:splat"
+  from = "/projects/1.ProjectNotes/*"
+  to = "/portfolio/public/projects/1.ProjectNotes/:splat"
   status = 200
   force = true
