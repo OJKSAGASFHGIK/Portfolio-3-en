@@ -1,5 +1,4 @@
-configure essa informações em meu arquivo netlify.toml:
-
+--configure essa informações em meu arquivo netlify.toml:
 -index:
 ./portfolio/public/index.html (o arquivo toml estará na pasta public aqui) 
 
@@ -9,7 +8,7 @@ configure essa informações em meu arquivo netlify.toml:
 ./../../../../projects/1.ProjectNotes/4.LearningBootstrap/index.html
 
 
--netlify prototype:
+--netlify prototype:
 [build]
   publish = "./portfolio/public"
   command = "npm run build"
@@ -28,3 +27,6 @@ configure essa informações em meu arquivo netlify.toml:
   from = "/learning-bootstrap"
   to = "/projects/1.ProjectNotes/4.LearningBootstrap/index.html"
   status = 200
+
+
+--netlify website:
