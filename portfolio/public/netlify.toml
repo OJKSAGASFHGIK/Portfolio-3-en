@@ -1,0 +1,8 @@
+[build]
+  publish = "./portfolio/public"
+  command = "npm run build"
+
+[[redirects]]
+  from = "/project-notes/*"
+  to = "/projects/1.ProjectNotes/:splat"
+  status = 200
