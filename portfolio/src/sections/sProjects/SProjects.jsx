@@ -1,5 +1,3 @@
-
-
 function SProjects({theme="sTheme", myId="idProjects"}){
     return(
         <>
@@ -35,6 +33,7 @@ function SProjects({theme="sTheme", myId="idProjects"}){
                                     aqui para ver mais...</a>
                             </article>
                         </div>
+                        {/*
                         <div>
                             <article>
                                 <h4>a1</h4>
@@ -43,6 +42,7 @@ function SProjects({theme="sTheme", myId="idProjects"}){
                                     aqui para ver mais...</a>
                             </article>
                         </div>
+                        */}
                     </div>
                 </div>
             </section>
