@@ -1,4 +1,4 @@
-import './../../assets/css/css.css';
+
 
 function SProjects({theme="sTheme", myId="idProjects"}){
     return(
@@ -32,6 +32,14 @@ function SProjects({theme="sTheme", myId="idProjects"}){
                                 <h4>Bootstrap <br/>Project</h4>
                                 <p>Notas gerais sobre bootstrap</p>
                                 <a href="./../../../../projects/1.ProjectNotes/4.LearningBootstrap/index.html" target="_blank">Clique
+                                    aqui para ver mais...</a>
+                            </article>
+                        </div>
+                        <div>
+                            <article>
+                                <h4>a1</h4>
+                                <p>Bolo de cenoura</p>
+                                <a href="./../../../../a1BoloDeCenoura.html" target="_blank">Clique
                                     aqui para ver mais...</a>
                             </article>
                         </div>
