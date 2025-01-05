@@ -1,5 +1,5 @@
 [build]
-  publish = "portfolio" #It means: Publish directory (public/index repository)
+  publish = "." #It means: Publish directory (public/index repository)
   command = "npm run build" # It means: Build command
 
 [[redirects]]
