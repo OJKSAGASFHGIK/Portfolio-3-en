@@ -1,0 +1,9 @@
+[build]
+  publish = "portfolio" #It means: Publish directory (public/index repository)
+  command = "npm run build" # It means: Build command
+
+[[redirects]]
+  from = "/projects/*"
+  to = "/projects/:splat"
+  status = 200
+  force = true

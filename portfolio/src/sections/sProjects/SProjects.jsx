@@ -12,7 +12,7 @@ function SProjects({theme="sTheme", myId="idProjects"}){
                             <article>
                                 <h4>All Notes</h4>
                                 <p>Notas gerais sobre HTML, CSS e JavaScript<br/></p>
-                                <a href="./../../../../projects/1.ProjectNotes/1.HTMLandCSSnotes/a1ResumeAll.html" target="_blank">Clique aqui para ver
+                                <a href="./../../../projects/1.ProjectNotes/1.HTMLandCSSnotes/a1ResumeAll.html" target="_blank">Clique aqui para ver
                                     mais...</a>
                             </article>
                         </div>
@@ -20,7 +20,7 @@ function SProjects({theme="sTheme", myId="idProjects"}){
                             <article>
                                 <h4>React.JS <br/>Project</h4>
                                 <p>Notas gerais sobre React.JS</p>
-                                <a href="./../../../../projects/1.ProjectNotes/3.LearningReactJS/react-library/public/index.html" target="_blank">Clique
+                                <a href="./../../../projects/1.ProjectNotes/3.LearningReactJS/react-library/public/index.html" target="_blank">Clique
                                     aqui para ver
                                     mais...</a>
                             </article>
@@ -29,7 +29,7 @@ function SProjects({theme="sTheme", myId="idProjects"}){
                             <article>
                                 <h4>Bootstrap <br/>Project</h4>
                                 <p>Notas gerais sobre bootstrap</p>
-                                <a href="./../../../../projects/1.ProjectNotes/4.LearningBootstrap/index.html" target="_blank">Clique
+                                <a href="./../../../projects/1.ProjectNotes/4.LearningBootstrap/index.html" target="_blank">Clique
                                     aqui para ver mais...</a>
                             </article>
                         </div>

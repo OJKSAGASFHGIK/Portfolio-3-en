@@ -1,9 +1,0 @@
-[build]
-  publish = "portfolio/public" #It means: Publish directory (public/index repository)
-  command = "echo 'no build script'" # It means: Build command
-
-[[redirects]]
-  from = "/projects/*"
-  to = "/projects/:splat"
-  status = 200
-  force = true
