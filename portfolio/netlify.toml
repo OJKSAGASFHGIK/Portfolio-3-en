@@ -1,9 +1,3 @@
 [build]
   publish = "." #It means: Publish directory (public/index repository)
-  command = "npm run build" # It means: Build command
-
-[[redirects]]
-  from = "/projects/*"
-  to = "/projects/:splat"
-  status = 200
-  force = true
+  command = "echo 'no build'" # It means: Build command
