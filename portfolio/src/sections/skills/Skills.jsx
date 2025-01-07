@@ -24,7 +24,7 @@ function Skills({theme="sTheme", myId="idSkills"}){
                                     <td>Bootstrap</td>
                                 </tr>
                                 <tr>
-                                    <td>Python, POO</td>
+                                    <td>Python</td>
                                 </tr>
                                 <tr>
                                     <td>Microsoft Office</td>
