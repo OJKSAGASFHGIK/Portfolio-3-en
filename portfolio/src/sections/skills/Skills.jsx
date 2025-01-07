@@ -21,6 +21,9 @@ function Skills({theme="sTheme", myId="idSkills"}){
                                     <td>React.JS</td>
                                 </tr>
                                 <tr>
+                                    <td>Bootstrap</td>
+                                </tr>
+                                <tr>
                                     <td>Python, POO</td>
                                 </tr>
                                 <tr>
