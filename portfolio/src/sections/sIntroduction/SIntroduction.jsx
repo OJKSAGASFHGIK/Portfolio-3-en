@@ -1,4 +1,4 @@
-import me from './../../assets/img/me1.jpg';
+import me from './../../assets/img/me3.jpg';
 
 function SIntroduction({theme = "sTheme"}){
     return(
