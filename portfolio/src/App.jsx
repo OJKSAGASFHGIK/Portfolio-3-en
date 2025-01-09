@@ -5,6 +5,9 @@ import Skills from './sections/skills/Skills.jsx';
 import SProjects from './sections/sProjects/SProjects.jsx';
 import SFooter from './sections/footer/SFooter.jsx';
 
+import './assets/bootstrap-5.3.3/dist/css/bootstrap.min.css';
+import './assets/bootstrap-5.3.3/dist/js/bootstrap.min.js';
+
 function App() {
   return (
     <>
