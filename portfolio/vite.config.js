@@ -6,6 +6,6 @@ export default defineConfig({
   base: './',
   plugins: [react()],
   build: {
-    outDir: 'public', // Substitua "public" pelo nome desejado
+    outDir: '../', // Substitua "public" pelo nome desejado
   },
 })
