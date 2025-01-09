@@ -9,18 +9,19 @@ function Navbar1({theme = "sTheme"}){
             if (fa1navbar) {
                 a1setNavbarHeight(fa1navbar.offsetHeight);
             }
-        }; fa1updateNavbarHeight();
-        const fa1resizeObserver = new ResizeObserver(fa1updateNavbarHeight);
-        const fa1navbar = document.querySelector('.navbar');
-        if (fa1navbar) {
-            fa1resizeObserver.observe(fa1navbar);
-        }
-        return () => {
-            if (fa1navbar) {
-                fa1resizeObserver.unobserve(fa1navbar);
-            }
         };
-    }, [])
+    
+        // Initial call to set navbar height
+        fa1updateNavbarHeight();
+    
+        // Add resize event listener to handle viewport changes
+        window.addEventListener('resize', fa1updateNavbarHeight);
+    
+        return () => {
+            // Cleanup resize event listener on component unmount
+            window.removeEventListener('resize', fa1updateNavbarHeight);
+        };
+    }, []);
 
     useEffect(() => {
         // Auto collapse after click
