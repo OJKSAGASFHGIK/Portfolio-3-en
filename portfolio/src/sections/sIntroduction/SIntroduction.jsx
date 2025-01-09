@@ -40,13 +40,13 @@ function SIntroduction({theme = "sTheme"}){
                         <p><span className="borderUwU">Desenvolvedor Front-End</span><br/>
                         <span>Novembro 2022 - Presente</span></p>
                             • Redes e contato:<br/>
-                            Git - Linkedin - Indeed<br/>
-                            mgsouzacampos@hotmail.com<br/>
-                            +55 (21) 98063-6091<br/>
+                            <a href="https://github.com/OJKSAGASFHGIK" target="_blank">Git</a> - <a href="https://www.linkedin.com/in/marcus-guilherme-sc3/" target="_blank">Linkedin</a><br/>
+                            <a id='id1Show-Email' onClick={f1CopyEmail} style={{cursor: "pointer"}}>mgsouzacampos@hotmail.com</a> {a1Copied && <span > - E-mail copiado</span>}<br/>
+                            <a href="https://wa.me/5521980636091" target="_blank">+55 (21) 98063-6091</a><br/>
 
                             • Cursando Ensino Superior em:<br/>
                             Análise e Desenvolvimento de Sistemas<br/>
-                            3¹ período / Agosto 2023 - Dezembro 2025<br/>
+                            4¹ período / Agosto 2023 - Dezembro 2025<br/>
                     </div>
                 </div>
             </section>
