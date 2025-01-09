@@ -36,9 +36,11 @@ function SIntroduction({theme = "sTheme"}){
                                 <a id='id1Show-Email' onClick={f1CopyEmail} style={{cursor: "pointer"}}>mgsouzacampos@hotmail.com</a>
                                 {a1Copied && <span ><br/>➟ E-mail copiado</span>}<br/>
                                 
-                                <a href="https://wa.me/5521980636091"><img src={whats} style={{border:"none", height:"39px", width:"39px"}} alt=""/></a> <span><a id='id1Show-Number' onClick={f2CopyEmail} style={{cursor: "pointer"}}>+55 (21) 98063-6091</a></span>
-                                {a2Copied && <span ><br/>➟ Número copiado</span>}<br/>
-                                
+                                <div className='d-flex align-items-center'>
+                                    <a href="https://wa.me/5521980636091"><img src={whats} className='me-1' style={{border:"none", height:"39px", width:"39px"}} alt="Whatsapp icon"/></a> <span><a id='id1Show-Number' onClick={f2CopyEmail} style={{cursor: "pointer"}}>+55 (21) 98063-6091</a></span>
+                                    {a2Copied && <span ><br/>➟ Número copiado</span>}<br/>
+                                </div>
+
                                 • Cursando Ensino Superior em:<br/>
                                 Análise e Desenvolvimento de Sistemas<br/>
                                 4¹ período / Agosto 2023 - Dezembro 2025<br/>
@@ -58,8 +60,10 @@ function SIntroduction({theme = "sTheme"}){
                             <a id='id1Show-Email' onClick={f1CopyEmail} style={{cursor: "pointer"}}>mgsouzacampos@hotmail.com</a>
                             {a1Copied && <span ><br/>➟ E-mail copiado</span>}<br/>
                             
-                            <a href="https://wa.me/5521980636091"><img src={whats} style={{border:"none", height:"39px", width:"39px"}} alt=""/></a> <span><a id='id1Show-Number' onClick={f2CopyEmail} style={{cursor: "pointer"}}>+55 (21) 98063-6091</a></span>
-                            {a2Copied && <span ><br/>➟ Número copiado</span>}<br/>
+                            <div className='d-flex align-items-center'>
+                                <a href="https://wa.me/5521980636091"><img src={whats} className='me-1' style={{border:"none", height:"39px", width:"39px"}} alt="Whatsapp icon"/></a> <span><a id='id1Show-Number' onClick={f2CopyEmail} style={{cursor: "pointer"}}>+55 (21) 98063-6091</a></span>
+                                {a2Copied && <span ><br/>➟ Número copiado</span>}<br/>
+                            </div>
                             
                             • Cursando Ensino Superior em:<br/>
                             Análise e Desenvolvimento de Sistemas<br/>
