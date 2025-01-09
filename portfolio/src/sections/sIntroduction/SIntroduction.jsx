@@ -1,4 +1,5 @@
 import me from './../../assets/img/me3.jpg';
+import whats from './../../assets/img/whatsapp.png';
 
 import React, { useState } from 'react';
 
@@ -9,6 +10,14 @@ function SIntroduction({theme = "sTheme"}){
         navigator.clipboard.writeText(fa1Email).then(() => {
             a1SetCopied(true);
             setTimeout(() => a1SetCopied(false), 2187);
+        })
+    }
+    const [a2Copied, a2SetCopied] = useState(false);
+    const f2CopyEmail = () => {
+        const fa2Email = document.getElementById('id1Show-Number').innerText;
+        navigator.clipboard.writeText(fa2Email).then(() => {
+            a2SetCopied(true);
+            setTimeout(() => a2SetCopied(false), 2187);
         })
     }
 
@@ -23,9 +32,13 @@ function SIntroduction({theme = "sTheme"}){
                             <span>Novembro 2022 - Presente</span></p>
                                 • Redes e contato:<br/>
                                 <a href="https://github.com/OJKSAGASFHGIK" target="_blank">Git</a> - <a href="https://www.linkedin.com/in/marcus-guilherme-sc3/" target="_blank">Linkedin</a><br/>
-                                <a id='id1Show-Email' onClick={f1CopyEmail} style={{cursor: "pointer"}}>mgsouzacampos@hotmail.com</a> {a1Copied && <span > - E-mail copiado</span>}<br/>
-                                <a href="https://wa.me/5521980636091" target="_blank">+55 (21) 98063-6091</a><br/>
-
+                                
+                                <a id='id1Show-Email' onClick={f1CopyEmail} style={{cursor: "pointer"}}>mgsouzacampos@hotmail.com</a>
+                                {a1Copied && <span ><br/>➟ E-mail copiado</span>}<br/>
+                                
+                                <a href="https://wa.me/5521980636091"><img src={whats} style={{border:"none", height:"39px", width:"39px"}} alt=""/></a> <span><a id='id1Show-Number' onClick={f2CopyEmail} style={{cursor: "pointer"}}>+55 (21) 98063-6091</a></span>
+                                {a2Copied && <span ><br/>➟ Número copiado</span>}<br/>
+                                
                                 • Cursando Ensino Superior em:<br/>
                                 Análise e Desenvolvimento de Sistemas<br/>
                                 4¹ período / Agosto 2023 - Dezembro 2025<br/>
@@ -41,9 +54,13 @@ function SIntroduction({theme = "sTheme"}){
                         <span>Novembro 2022 - Presente</span></p>
                             • Redes e contato:<br/>
                             <a href="https://github.com/OJKSAGASFHGIK" target="_blank">Git</a> - <a href="https://www.linkedin.com/in/marcus-guilherme-sc3/" target="_blank">Linkedin</a><br/>
-                            <a id='id1Show-Email' onClick={f1CopyEmail} style={{cursor: "pointer"}}>mgsouzacampos@hotmail.com</a> {a1Copied && <span > - E-mail copiado</span>}<br/>
-                            <a href="https://wa.me/5521980636091" target="_blank">+55 (21) 98063-6091</a><br/>
-
+                            
+                            <a id='id1Show-Email' onClick={f1CopyEmail} style={{cursor: "pointer"}}>mgsouzacampos@hotmail.com</a>
+                            {a1Copied && <span ><br/>➟ E-mail copiado</span>}<br/>
+                            
+                            <a href="https://wa.me/5521980636091"><img src={whats} style={{border:"none", height:"39px", width:"39px"}} alt=""/></a> <span><a id='id1Show-Number' onClick={f2CopyEmail} style={{cursor: "pointer"}}>+55 (21) 98063-6091</a></span>
+                            {a2Copied && <span ><br/>➟ Número copiado</span>}<br/>
+                            
                             • Cursando Ensino Superior em:<br/>
                             Análise e Desenvolvimento de Sistemas<br/>
                             4¹ período / Agosto 2023 - Dezembro 2025<br/>
