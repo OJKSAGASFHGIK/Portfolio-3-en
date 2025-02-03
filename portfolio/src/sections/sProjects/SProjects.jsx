@@ -12,14 +12,14 @@ function SProjects({theme="sTheme", myId="idProjects"}){
                             <article>
                                 <h4>All Notes</h4>
                                 <p>General notes about HTML, CSS and JavaScript<br/></p>
-                                <a href="./projects/1.ProjectNotes/1.HTMLandCSSnotes/a1ResumeAll.html" target="_blank">Click here to see more...</a>
+                                <a href="https://greque-portfolio.netlify.app/projects/1.ProjectNotes/1.HTMLandCSSnotes/a1ResumeAll.html" target="_blank">Click here to see more...</a>
                             </article>
                         </div>
                         <div>
                             <article>
                                 <h4>React.JS <br/>Project</h4>
                                 <p>General notes about React.JS</p>
-                                <a href="./projects/1.ProjectNotes/3.LearningReactJS/react-library/public/index.html" target="_blank">Clique
+                                <a href="https://greque-portfolio.netlify.app/projects/1.projectnotes/3.learningreactjs/react-library/public/" target="_blank">Clique
                                 Click here to see more......</a>
                             </article>
                         </div>
@@ -27,7 +27,7 @@ function SProjects({theme="sTheme", myId="idProjects"}){
                             <article>
                                 <h4>Bootstrap <br/>Project</h4>
                                 <p>General notes about Bootstrap</p>
-                                <a href="./projects/1.ProjectNotes/4.LearningBootstrap/index.html" target="_blank">Click here to see more...</a>
+                                <a href="https://greque-portfolio.netlify.app/projects/1.projectnotes/4.learningbootstrap/" target="_blank">Click here to see more...</a>
                             </article>
                         </div>
                         {/*
