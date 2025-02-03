@@ -4,13 +4,13 @@ function Skills({theme="sTheme", myId="idSkills"}){
     return(
         <>
             <section id={myId} className={`container-fluid ${theme} Skills`}>
-                <h3>Proficiências:</h3>
+                <h3>Proficiencies:</h3>
                 <div className='row'>
                     <div className='col-12 col-md-6'>
                         <table className=''>
                             <thead>
                                 <tr>
-                                    <th>✔ Competências</th>
+                                    <th>✔ Skills</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -47,7 +47,7 @@ function Skills({theme="sTheme", myId="idSkills"}){
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Conceitos de POO e lógicas fundamentais</td>
+                                    <td>Concepts of OOP and fundamental logics</td>
                                 </tr>
                             </tbody>
                             {/*<caption>⟳</caption>
@@ -70,15 +70,15 @@ function Skills({theme="sTheme", myId="idSkills"}){
                         <table className=''>
                             <thead>
                                 <tr>
-                                    <th>● Idiomas:</th>
+                                    <th>● Languages:</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Português nativo</td>
+                                    <td>Native portuguese</td>
                                 </tr>
                                 <tr>
-                                    <td>Inglês intermediário-avançado</td>
+                                    <td>Intermediate-advanced English</td>
                                 </tr>
                             </tbody>
                         </table>
